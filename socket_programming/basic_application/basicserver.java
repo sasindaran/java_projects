@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.net.*;
-
+import java.util.*;
 public class basicserver
 {
     public static void main(String[] args) throws IOException {
@@ -12,7 +12,13 @@ public class basicserver
 
 
        Socket clientsocket=socket.accept();
-       socket.close();
+        try (Scanner scanner = new Scanner(clientsocket.getInputStream())) {
+            String message=scanner.nextLine();
+
+            System.out.println("The client texted : "+message);
+        }
+        
+        socket.close();
        clientsocket.close();
        System.out.println("Client is connected"); 
     }
