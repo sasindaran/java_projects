@@ -2,12 +2,16 @@
 
 ## Sample Output
 
-#### Client Output
-![Client Output](images/client_output.png)
-
-#### Server Output
-![Server Output](images/server_output.png)
-
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <img src="images/client_output.png" alt="Client Output" style="width: 45%;">
+    <p><strong>Client Output</strong></p>
+  </div>
+  <div>
+    <img src="images/server_output.png" alt="Server Output" style="width: 45%;">
+    <p><strong>Server Output</strong></p>
+  </div>
+</div>
 ## Project Overview
 This is a simple client-server chat application built using Java’s TCP sockets for communication. The server and client establish a connection and can exchange messages in real-time. It demonstrates two-way communication and socket programming fundamentals.
 
