@@ -14,7 +14,7 @@ public class basiclient {
 
         while(true)
         {
-            System.out.println("Enter a meesage to send");
+            System.out.println("Enter a message to send");
             String message=input.nextLine();
             OutputStream.write((message+"\n").getBytes());
             OutputStream.flush();
