@@ -1,5 +1,13 @@
 # Java Chat Application
 
+## Sample Output
+
+#### Client Output
+![Client Output](images/client_output.png)
+
+#### Server Output
+![Server Output](images/server_output.png)
+
 ## Project Overview
 This is a simple client-server chat application built using Java’s TCP sockets for communication. The server and client establish a connection and can exchange messages in real-time. It demonstrates two-way communication and socket programming fundamentals.
 
@@ -42,15 +50,6 @@ This is a simple client-server chat application built using Java’s TCP sockets
     ```
    The client will connect to the server and allow two-way messaging.
 
-
-## Sample Output
-
-
-#### Client Output
-![Client Output](images/client_output.png)
-
-#### Server Output
-![Server Output](images/server_output.png)
 
 ## Usage
 - Start the server first, which will wait for a client to connect.
