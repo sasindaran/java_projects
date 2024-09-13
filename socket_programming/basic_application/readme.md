@@ -45,12 +45,12 @@ This is a simple client-server chat application built using Java’s TCP sockets
 
 ## Sample Output
 
-#### Server Output
-![Server Output](images/server_output.png)
 
 #### Client Output
 ![Client Output](images/client_output.png)
 
+#### Server Output
+![Server Output](images/server_output.png)
 
 ## Usage
 - Start the server first, which will wait for a client to connect.
