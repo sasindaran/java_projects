@@ -12,6 +12,7 @@
     <p><strong>Server Output</strong></p>
   </div>
 </div>
+
 ## Project Overview
 This is a simple client-server chat application built using Java’s TCP sockets for communication. The server and client establish a connection and can exchange messages in real-time. It demonstrates two-way communication and socket programming fundamentals.
 
